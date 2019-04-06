@@ -7,11 +7,13 @@ class LandingPage extends Component {
             <div style ={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
+                    <div class="container">
                     <img 
                     src={require('../assets/images/planning.jpeg')}
-                    alt="avatar"
-                    className="avatar-img"
+                    alt="Our Services"
+                    className="landing-img"
                     />
+                    </div>
                     </Cell>
                 </Grid>
             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, Footer, FooterLinkList, FooterSection } from 'react-mdl';
 import Main from "./components/main";
 import { Link } from 'react-router-dom';
 
@@ -27,6 +27,14 @@ class App extends Component {
             <div className="page-content" />
             <Main></Main>
           </Content>
+          <Footer size="mini">
+            <FooterSection type="left" logo="SPP&M © 2019">
+              <FooterLinkList>
+                <a href="#">Help</a>
+                <a href="#">Privacy & Terms</a>
+              </FooterLinkList>
+            </FooterSection>
+          </Footer>
         </Layout>
       </div>
     );
