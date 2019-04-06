@@ -3,3 +3,10 @@
     width: 100%;
     padding: auto;
 }
+.header-left{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    font-size: 40px;
+    font-weight: 600;
+}

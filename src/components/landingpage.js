@@ -13,7 +13,12 @@ class LandingPage extends Component {
                     alt="Our Services"
                     className="landing-img"
                     />
+                    <div class="header-left"><em>Over 30 years of Project Management Excellence</em></div>
                     </div>
+                    <h2><u>Introduction</u></h2>
+                    <h2><u>What we do and how we do it.</u></h2>
+                    <h2><u>Introduction</u></h2>
+
                     </Cell>
                 </Grid>
             </div>
