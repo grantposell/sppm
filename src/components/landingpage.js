@@ -17,7 +17,7 @@ class LandingPage extends Component {
                     </div>
                     <h2><u>Introduction</u></h2>
                     <h2><u>What we do and how we do it.</u></h2>
-                    <h2><u>Introduction</u></h2>
+                    <h2><u>What we are not...</u></h2>
 
                     </Cell>
                 </Grid>
