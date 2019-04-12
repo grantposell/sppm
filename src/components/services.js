@@ -6,28 +6,24 @@ import Collapse from '@kunukn/react-collapse';
 
 
 class Services extends Component {
-    state = {
-        isOpen1: false,
-        isOpen2: false,
-        isOpen3: false,
-        isOpen4: false,
-        isOpen5: false,
-        isOpen6: false,
-    }
-    
-    
-    
-    
-    render() {
-        return (
-            <div className="app">
+  state = {
+    isOpen1: false,
+    isOpen2: false,
+    isOpen3: false,
+    isOpen4: false,
+    isOpen5: false,
+    isOpen6: false,
+  }
+  render() {
+    return (
+      <div className="app">
         <button
           className={cx("app__toggle", {
             "app__toggle--active": this.state.isOpen1
           })}
           onClick={() => this.toggle(1)}
         >
-          <span className="app__toggle-text">toggle</span>
+          <span className="app__toggle-text">How’s Your PMO?</span>
           <div className="rotate90">
             <svg
               className={cx("icon", { "icon--expanded": this.state.isOpen1 })}
@@ -98,27 +94,27 @@ class Services extends Component {
             </React.Fragment>
           )}
         />
-                <Grid className="landing-grid">
-                    <Cell col={12}>
-                        <Collapse className='collapse-css-transition' isOpen={false || true}>
-                            <p>Paragraph of text</p>
-                            <p>Another paragraph is also OK</p>
-                            <p>Images and any other content are ok too</p>
-                            <img src="cutecat.gif" />
-                        </Collapse>
-                        <h2><u>How’s Your PMO?</u></h2>
+        <Grid className="landing-grid">
+          <Cell col={12}>
+            <Collapse className='collapse-css-transition' isOpen={false || true}>
+              <p>Paragraph of text</p>
+              <p>Another paragraph is also OK</p>
+              <p>Images and any other content are ok too</p>
+              <img src="cutecat.gif" />
+            </Collapse>
+            <h2><u></u></h2>
 
-                        <h2><u>Project Initiation and Readiness</u></h2>
-                        <h2><u>Project Planning</u></h2>
+            <h2><u>Project Initiation and Readiness</u></h2>
+            <h2><u>Project Planning</u></h2>
 
-                        <h2><u> Project Scheduling</u></h2>
+            <h2><u> Project Scheduling</u></h2>
 
-                        <h2><u> Project Execution</u></h2>
-                        <h2><u>Project Completion and Documentation</u></h2>
-                    </Cell>
-                </Grid>
-            </div>
-        )
-    }
+            <h2><u> Project Execution</u></h2>
+            <h2><u>Project Completion and Documentation</u></h2>
+          </Cell>
+        </Grid>
+      </div>
+    )
+  }
 }
 export default Services;
