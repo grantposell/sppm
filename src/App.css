@@ -1,12 +1,19 @@
-.landing-img{
-    height: 500px;
-    width: 100%;
-    padding: auto;
+.landing-img {
+  height: 500px;
+  width: 100%;
+  padding: auto;
 }
-.header-left{
-    position: absolute;
-    top: 1em;
-    left: 1em;
-    font-size: 40px;
-    font-weight: 600;
+.header-left {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 40px;
+  font-weight: 600;
 }
+.header-color {
+    font-family: "Lato", sans-serif;
+}
+.header-main{
+    font-family: "Lato", sans-serif;
+}
+
