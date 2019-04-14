@@ -197,7 +197,12 @@ class Services extends Component {
           </div>
         </Collapse>
       </div>
-    )
+    );
   }
+  toggle = index => {
+    let collapse = "isOpen" + index;
+
+    this.setState(prevState => ({ [collapse]: !prevState[collapse] }));
+  };
 }
 export default Services;
